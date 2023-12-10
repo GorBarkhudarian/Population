@@ -34,7 +34,7 @@ int main() {
     struct DemographicData armeniaDemographics = {0.01, 0.005, 0.002};
 
     // Project population for the next 100 years
-    for (int year = 1; year <= 100; year++) {
+    for (int year = 2024; year <= 2124; year++) {
         armeniaPopulation = projectPopulation(armeniaPopulation, armeniaDemographics);
 
         // Print the projected population for each year
